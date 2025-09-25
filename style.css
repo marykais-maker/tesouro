@@ -1,0 +1,24 @@
+body {
+    background-color:  rgb(247, 199, 96);
+    color: brown;
+    font-family:'Bitcount Grid Double, sans-serif';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin:0;
+}
+
+button {
+    background-color: rgb(224, 198, 113);
+    color: rgb(250, 221, 184);
+    font-family: 'Bitcount Grid Double, sans-serif';
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo{
+    display: block;
+}
